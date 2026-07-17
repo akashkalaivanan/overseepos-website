@@ -1,0 +1,10 @@
+{
+  "name": "overseepos-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "python build.py",
+    "start": "npx serve -l 3456",
+    "preview": "npm run build && npm run start"
+  }
+}
